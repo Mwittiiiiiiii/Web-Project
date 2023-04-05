@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <style>
+ /* Navigation bar styling */
+nav {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Product container styling */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-details {
+  text-align: center;
+  margin: 10px;
+}
+
+.product-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border: none;
+}
+
+fieldset {
+  margin: 0 auto;
+  width: 70%;
+  background-color: white;
+}
+body{
+    background-color: black;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="indexhtml">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <fieldset>
+    <div class="container">
+      <h1>Kyrie Infinity</h1><br>
+      <div class="product-image">
+        <img src="kyrie Infinity.webp" alt="Product Image">
+      </div>
+      <div class="product-details">
+        <p>Price: $69.99</p>
+        <p>Color: black</p>
+        <p>Size: 7</p><br>
+        <h1>Lebron NxxT Gen</h1>
+      <div class="product-image">
+        <img src="lebron nxxt gen.webp" alt="Product Image">
+      </div>
+      <div class="product-details">
+        <p>Price: $100.99</p>
+        <p>Color: grey</p>
+        <p>size: 7</p>
+        <p>Description:Our basketball shoes are designed to help you stay at the top of your game. With features such as excellent grip, optimal cushioning, and support for your ankles, our shoes are the perfect choice for any basketball player looking to maximize their performance on the court. Our shoes come in a variety of styles and sizes, so you can find the perfect fit for your foot and match your unique style. We also offer shoes from top brands in the industry, ensuring that you are getting high-quality shoes that will last you for many games to come. So whether you're a beginner or a seasoned pro, our basketball shoes will help you perform at your best. Shop now and step up your game with our unbeatable selection of basketball shoes.</p>
+        </p>
+        <h1>Joerex Ball</h1>
+      <div class="product-image">
+        <img src="joerex.jpeg" alt="Product Image">
+      </div>
+      <div class="product-details">
+        <p>Price: $40.99</p>
+        <p>Color: orange</p><br>
+        <h1>Spalding Ball</h1>
+      <div class="product-image">
+        <img src="spalding ball.webp" alt="Product Image">
+      </div>
+      <div class="product-details">
+        <p>Price: $49.99</p>
+        <p>Color: orange</p>
+        <p> Descriptions:We offer a variety of basketballs suitable for players of all ages and skill levels. From indoor to outdoor use, our range of basketballs includes premium leather, composite, and rubber materials, ensuring optimal grip and durability for every game.</p>
+       </div>
+        <br>
+        <h1>Lakers shirt</h1>
+      <div class="product-image">
+        <img src="Lakers jersey.webp" alt="Product Image">
+      </div>
+      <div class="product-details">
+        <p>Price: $20.99</p>
+        <p>size : XL</p>
+        <p>Color: yellow</p><br>
+        <h1>Golden State Warriors Shirt</h1>
+      <div class="product-image">
+        <img src="Gs jersey.webp" alt="Product Image">
+      </div>
+      <div class="product-details">
+        <p>Price: $39.99</p>
+        <p>size: XL</p>
+        <p>Color: black</p><br>
+
+        <p>Description:Made from high-quality, breathable materials, our shirts are designed for optimal comfort and performance on the court. With a range of styles and sizes available, you're sure to find the perfect basketball shirt to match your style and fit your body. Our shirts are also perfect for team uniforms, with the option to add custom designs and logos for a personalized touch. Whether you're practicing your jump shot or cheering on your favorite team, our basketball shirts are the perfect addition to your wardrobe. Shop now and elevate your game with our top-of-the-line basketball shirts.
+      <form action="cart.html">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10">
+          <button type="submit">Add to Cart</button>
+        </form>
+      </div>
+    </div>
+    </div>
+</fieldset>
+    <footer>
+      <p>&copy; 2023 Basketball Online Store</p>
+    </footer>
+  </body>
+</html>
